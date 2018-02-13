@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://photojournal.jpl.nasa.gov/jpeg/PIA17005.jpg")
+}
+
+.header {
+    color:white;
+    background-color: lightblue;
+    margin-right: auto;
+}
+
+.header1 {
+
+}
+
+.instructions {
+    color: blue;
+    background-color: yellow;
+
+}
+
+.scoretext {
+    color: blue;
+    font-size: 300%;
+    background-color: yellow;
+}
+
+.randNum {
+    margin-left: left;
+    background-color: white;
+    font-size: 600%;
+}
+
+.totW {
+    margin-left: left;
+    background-color: green;
+}
+
+.userScore {
+    color: black;
+}
+
+.crystalBtn {
+  width: 200px;
+  height: 200px;
+}

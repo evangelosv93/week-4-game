@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Crystal Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="./assets/javascript/game.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="row">
+    <div class="header col-md-4">
+        <h1>Crystal Collector!</h1>
+    </div>
+    <div class="header1 col-md-4">
+    </div>
+    </div>
+
+<!-- Game Description and Instructions Row-->
+    <div class="row">
+        <div class="instructions col-md-6">
+    <h3>Rules</h3>
+
+        <p>You will be given a random number at the start of the game. If you match it you win, if you go over you lose.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You dont know the value of the crystal because we want you to lose.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+    </div>
+    </div>
+
+
+    <div class="numberswins row">
+
+        <div class="randNum col-md-3">
+            <p id="randNum"></p>
+        </div>
+
+    <div class="totW col-md-2">
+            <p>Wins:<p id="numW"></p>
+               Losses:<p id"numL"></p>
+            </p>
+    </div>
+
+    </div>
+
+    <div class= col-md-0></div>
+
+
+    <div class="crystal row">
+
+            <input type="image" class="crystalBtn" id="ione" src="./assets/images/ruby.jpg" alt="Crystal One"/>
+            <input type="image" class="crystalBtn" id="itwo" src="./assets/images/diamond.png" alt="Crystal Two"/>
+            <input type="image" class="crystalBtn" id="ithree" src="./assets/images/yellow.jpg" alt="Crystal Three"/>
+            <input type="image" class="crystalBtn" id="ifour" src="./assets/images/emerald.jpg" alt="Crystal Four"/>
+
+        </div>
+<!-- Box stating score - Row Div-->
+
+    <div class="scoretext row">
+        <div class="col-md-1"></div>
+        <p>Your score from guessing crystals...</p>
+        <p class="userScore"> </p>
+        <div class="col-md-11"></div>
+    </div>
+
+</div>
+
+</body>
+</html>
